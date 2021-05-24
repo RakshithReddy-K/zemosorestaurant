@@ -1,0 +1,32 @@
+{
+    "items":
+    [{
+        "name":"Gusty Garlic Focaccia with Melted Cheese",
+        "price":"155.00"
+
+    },
+    {
+        "name":"Chicken Nuggets",
+        "price":"135.00"
+
+    },
+
+    {
+        "name":"French Fries",
+        "price":"120.00"
+
+    },{
+        "name":"Veggie Delight",
+        "price":"105.00"
+
+    },{
+        "name":"French Fries with Cheese & Jalapenos",
+        "price":"135.00"
+
+    },{
+        "name":"Chicken and Cheese Burger",
+        "price":"190.00"
+
+    }
+]
+}

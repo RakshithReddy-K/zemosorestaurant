@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Newsreader&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- css sheet -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!--TABLES-->
+            <div class="tables">
+                <h2>TABLES</h2>
+
+                <form name="tableform" action="#">
+                    <input class="searchbar" id="tablesearch"
+                    onkeyup="searchTable()"
+                        type="text"
+                        placeholder="search for table"
+                   />
+            </form>
+                <br><br>
+                <!--List of tables-->
+                    <button class="table" id="table1">
+                    </button>
+                    <button class="table" id="table2">
+                    </button>
+                    <button class="table" id="table3"></button>
+                    </button>
+                </div>
+            
+
+            <div class="menu">
+                <h2>MENU</h2>
+                <form name="menuform" action="#">
+                    <input
+                    class="searchbar"
+                        type="text" id="menusearch" onkeyup="searchMenu()"
+                        placeholder="search for any item"
+                    style="width: 80%;"/>
+                 </form>
+                <br><br>
+                <button class="item" id="item1" draggable="true"></button>
+                <button class="item" id="item2" draggable="true"></button>
+                <button class="item" id="item3" draggable="true"></button>
+                <button class="item" id="item4" draggable="true"></button>
+                <button class="item" id="item5" draggable="true"></button>
+                <button class="item" id="item6" draggable="true"></button>
+                   
+            </div>
+         <div id="myModal" class="modal">
+
+                <div class="modal-content">
+                    <span class='close'>&times;</span>
+                  <div class="modal-header">
+                      <h3 id='header'></h3>
+
+                  </div>
+                  <div class="modal-body">
+                  </div>
+                  <div>
+                      <p style="margin-left: 30%;font-weight: bold;" id='totalbill'></p>
+                      <br>
+                      <h3 style="margin-left: 65%;" id="sessionclose" ></h3>  
+                    </div>
+                    
+                
+                
+               
+            </div>
+    </body>
+    <script src="script.js"></script>
+    <script>
+    fetchFromMenuJson();
+    loadTableData();
+    loadMenuData();
+    </script>
+</html>
+
+
+
+
+
+
+

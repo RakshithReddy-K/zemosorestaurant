@@ -1,0 +1,27 @@
+{
+    "tables":[
+    {
+        "name":"Table 1",
+        "totalitems":0,
+        "totalprice":0.0,
+        "orders":[]
+        
+    },
+
+    {
+        "name":"Table 2",
+        "totalitems":0,
+        "totalprice":0.0,
+        "orders":[]
+        
+    },
+
+    {
+        "name":"Table 3",
+        "totalitems":0,
+        "totalprice":0.0,
+        "orders":[]
+        
+    }
+]
+}
